@@ -1,5 +1,6 @@
 import { IconSunset2, IconBrandGithub, IconBrandLinkedin } from "@tabler/icons";
 import { useState } from "react";
+import Pdf from '../src/yasmincv copy.pdf'; 
 
 const technologies = [
   {
@@ -77,16 +78,16 @@ function App() {
             </div>
           </div>
           <div className="col-span-12 md:col-span-10">
-            I'm a self-taught aspiring software developer majoring in Public
-            Relations with absolutely no Computer Science/Information Technology
-            background. To reach me, feel free to drop me an email or message me
-            on Discord.
+            I'm a self-taught aspiring software developer with a knack for doing
+            things just because I was told I couldn't. To reach me, feel free to
+            drop me an email or message me on LinkedIn.
             <div>
               <br />
               Check out my resume{" "}
               <a
-                href="abc.com"
+                href={Pdf}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="cursor-pointer decoration-solid text-blue-400"
               >
                 here.
@@ -99,8 +100,9 @@ function App() {
             </div>
           </div>
           <div className="col-span-12 md:col-span-10">
-            Miserable for the past year working in the field of
-            sales/marketing/client servicing.
+            All three of my past jobs were in the field of
+            sales/marketing/client servicing and may be referred to in the link
+            above.
           </div>
           <div className="col-span-12 md:col-span-2 mt-4 md:mt-0">
             <div className={`${dark ? "text-cyan-200" : "text-indigo-600"}`}>

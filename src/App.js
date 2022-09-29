@@ -1,6 +1,7 @@
 import { IconSunset2, IconBrandGithub, IconBrandLinkedin } from "@tabler/icons";
 import { useState } from "react";
 import Pdf from '../src/yasmincv copy.pdf'; 
+import './index.css';
 
 const technologies = [
   {

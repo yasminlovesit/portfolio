@@ -50,7 +50,7 @@ function App() {
           >
             Yasmin M
           </h1>
-          <h3>Front-End Developer</h3>
+          <h3>Frontend Developer</h3>
           <span className="italic text-gray-500">Kuala Lumpur, Malaysia</span>
         </div>
         <div className="grid grid-cols-12 gap-y-2 md:gap-y-12 mt-8 pt-7">
